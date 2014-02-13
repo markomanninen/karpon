@@ -32,12 +32,12 @@ If you want to use other installation directory or server port, remember to chan
 `WWW_ROOT` -> `http://localhost{:port}/your_directory/`
 
 You need to have PHP version 5.3 or higher installed on your server, but there is no need for database, because 
-data and logic used on application is all file and memory based.
+data and logic used on application is all file and memory based. Rich text content is maintained and retrieved from [http://karpon321.tumblr.com/](http://karpon321.tumblr.com/) via their API.
 
 You also need to have open internet connection to run everything smoothly, because some of the javascript 
 dependency is loaded from ASP.NET [CDN](http://en.wikipedia.org/wiki/Content_delivery_network).
 
-If you install application on remote server, set `IS_LOCAL` to `FALSE` on `config.php`.
+If you install application on a remote server, set `WWW_ROOT` to your own server and path on `config.php`.
 
 
 ## Contributing
@@ -106,6 +106,18 @@ Finally you need to manually add new script to the `$gematria_methods` and `$ins
 Greek and Hebrew concordances are provided with the application. See: https://github.com/openscriptures/strongs for original files.
 
 
+### Dependencies
+
+Templating system [Haanga](https://github.com/crodas/Haanga) is provided by C. D. Rodas.
+
+Site layout is based on [Skeleton](www.getskeleton.com) V1.2 by Dave Gamache.
+
+Body texts are centralized to the Tumblr ecosystem instead of own database. [Tumblr PHP API](https://github.com/gregavola/tumblrPHP) library is needed for that purpose.
+
+Charts and geometry visualization is done with [JSXGraph](https://github.com/jsxgraph/jsxgraph).
+
+Other javascript libraries involved are [JQuery](http://jquery.com/), [Datatable](https://datatables.net/), [Highlight](http://highlightjs.org/) and [MathJax](http://www.mathjax.org/).
+
 ## Current state
 
 
@@ -118,15 +130,15 @@ Greek and Hebrew concordances are provided with the application. See: https://gi
 
 ### Installed manuscripts
 
-Textus Receptus
+**Textus Receptus**
 
 - John's Revelation (Greek)
 
-Hebraica Stuttgartensia
+**Hebraica Stuttgartensia**
 
 -  Genesis (Hebrew)
 
-William Shakespeare
+**William Shakespeare**
 
 -  Sonnets (English)
 
