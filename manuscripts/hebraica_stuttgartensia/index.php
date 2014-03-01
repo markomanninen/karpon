@@ -9,7 +9,7 @@
  */
 
 
-// header is needed only for testing this script independetly
+// header is needed only for testing this script independently
 #header('Content-Type: text/html; charset=utf-8');
 
 $manuscript = array();
@@ -65,6 +65,8 @@ foreach ($lines as $r => $line) {
 }
 
 /*
+
+Debug output:
 
 CHAPTER 1
 NO STRONG FOR: 1:5:14
