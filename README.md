@@ -1,24 +1,28 @@
 Karpon
 ======
 
-Karpon (*[fruit](http://en.wikipedia.org/wiki/Karpos)*) is a research tool for ancient scriptures 
-based on letter number values of the alphabet of the manuscript's writing system.
+Karpon (*[fruit](http://en.wikipedia.org/wiki/Karpos)*) is a research tool for all users interested of ancient religious and philosophical scriptures and their *certain* hermeneutic, or more precisely exegetical interpretation. This *certain* interpretation is mainly oriented and based on letter number values of the alphabet of the manuscript's writing system.
 
-This method of seeking "hidden" double meanings of the literary words is better known as **gematria** 
-and **isopsephy**, which were and still are practiced by Hebrew Cabalists and Greek Gnostics.
+While Karpon as an application is investigating mathematical and geometric principles of the underlying text or their structure, one should not forget the greater picture. This kind of tool is just one part of the interpretation systems and should be regarded as an addition to the textual criticism  used nowadays. Study of the historical and cultural backgrounds for the author, the text, the original audience, classification of the type of literary genres present in the text, and an analysis of grammatical and syntactical features in the text itself[1](http://en.wikipedia.org/wiki/Exegesis) must still be used together with Karpon to get intelligent results. Interestingly for mathematical minds and number theorists this can sort of open an unexpected door to the minds of ancient authors behind the manuscripts without really needing to learn original language in great depths. Mathematics and geometry are still considered to be the only true universal languages in the world.
+
+### Historical background
+
+Method of seeking "hidden" double meanings of the literary words by their numerical value is better known as **gematria** and **isopsephy**, which were and currently are practiced by Hebrew Cabalists and Greek Gnostics. Both words, gematria and isopsephy are language specific terms having certain contextual burden. Thus neither are the best choice for describing method of Karpon, which applies same method to several other scripts. Similar methods are used in the past at least by Arabic scholars (they call it Jum’mal), Vedantists in India (see [Katapayadi system](http://en.wikipedia.org/wiki/Katapayadi_system)), maybe buddhists and many other religious schools as well. Number symbolism is ideal tool for multilevel transcription of theological ideas and mnemonic devices for religious practitioners. Method can also be applied to the old Coptic (and even [Ethiopic](http://www.geez.org/Numerals/)) scriptures, which borrows a lot from Greek alphabet. In fact, you can apply method to any text, if alphabet can be transformed to the numerical values. English example (Sonnets of Shakespeare) is given in Karpon just for giving opportunity to compare and test the meaningfulness (or meaninglessness!) of the results. But until better word is invented for universally describe the method, gematria or isopsephy words are used in the application.
+
+### Example
+
+...
 
 With Karpon web application you can find occurrences of the numerical values and corresponding words/phrases 
-from the manuscripts, examine their geometric connections between other terms and see number properties 
-in table format. Word properties like transliteration, lemma, morphology and translation/definitions are also 
-shown to some extend but main emphasis is on mathematical and geometric search functionality and presentation 
-since good lexicons are available on sites like: http://www.biblestudytools.com/lexicons/
+from the manuscripts, examine their geometric connections between other terms and see harmonic properties of the numbers in tabular and visualized graphical format. Word properties like transliteration, lemma, morphology and translation/definitions are also shown to some extend but main emphasis is on mathematical and geometric search functionality and presentation. Good lexicons are available from many good sites, for example: http://www.biblestudytools.com/lexicons/ that you can use in combination with Karpon.
 
-Easiest way to use Karpon application is to use dedicated site: http://www.karpon.net/
+## How to get involved with Karpon?
 
-You can see [help section](http://www.karpon.net/?c=help) of the site to see more instructions for using it. Other 
-way using application is to install it on your own computer. This requires some technical skills to set up web 
-server and PHP application on localhost. Third way to interact with the project is to contribute manuscripts and 
-alphabetical number mapping classes.
+Easiest way to get hands on Karpon application is just to use dedicated site: http://www.karpon.net/
+
+You can see [help section](http://www.karpon.net/?c=help) of the site to see more instructions how to use it.
+
+Other way using application is to install it on your own computer. This requires some technical skills to set up web server and PHP application on localhost. Third way to interact with the project is to contribute manuscripts and alphabetical number mapping classes.
 
 
 ## Installing
