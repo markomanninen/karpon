@@ -1,20 +1,58 @@
 Karpon
 ======
 
-Karpon (*[fruit](http://en.wikipedia.org/wiki/Karpos)*) is a research tool for all users interested of ancient religious and philosophical scriptures and their *certain* hermeneutic, or more precisely exegetical interpretation. This *certain* interpretation is mainly oriented and based on letter number values of the alphabet of the manuscript's writing system.
-
-While Karpon as an application is investigating mathematical and geometric principles of the underlying text or their structure, one should not forget the greater picture. This kind of tool is just one part of the interpretation systems and should be regarded as an addition to the textual criticism  used nowadays. Study of the historical and cultural backgrounds for the author, the text, the original audience, classification of the type of literary genres present in the text, and an analysis of grammatical and syntactical features in the text itself[1](http://en.wikipedia.org/wiki/Exegesis) must still be used together with Karpon to get intelligent results. Interestingly for mathematical minds and number theorists this can sort of open an unexpected door to the minds of ancient authors behind the manuscripts without really needing to learn original language in great depths. Mathematics and geometry are still considered to be the only true universal languages in the world.
+Karpon ([fruit] [1]) is a tool for all researchers interested of ancient religious and philosophical scriptures and their *certain* hermeneutic, or more precisely exegetical interpretation. This *certain* interpretation is mainly oriented and based on letter number values of the alphabet of the manuscript's writing system.
 
 ### Historical background
 
-Method of seeking "hidden" double meanings of the literary words by their numerical value is better known as **gematria** and **isopsephy**, which were and currently are practiced by Hebrew Cabalists and Greek Gnostics. Both words, gematria and isopsephy are language specific terms having certain contextual burden. Thus neither are the best choice for describing method of Karpon, which applies same method to several other scripts. Similar methods are used in the past at least by Arabic scholars (they call it Jum’mal), Vedantists in India (see [Katapayadi system](http://en.wikipedia.org/wiki/Katapayadi_system)), maybe buddhists and many other religious schools as well. Number symbolism is ideal tool for multilevel transcription of theological ideas and mnemonic devices for religious practitioners. Method can also be applied to the old Coptic (and even [Ethiopic](http://www.geez.org/Numerals/)) scriptures, which borrows a lot from Greek alphabet. In fact, you can apply method to any text, if alphabet can be transformed to the numerical values. English example (Sonnets of Shakespeare) is given in Karpon just for giving opportunity to compare and test the meaningfulness (or meaninglessness!) of the results. But until better word is invented for universally describe the method, gematria or isopsephy words are used in the application.
+Method of seeking "hidden" multilayer meanings of the literary words by their numerical value is better known as **gematria** and **isopsephy**, which were and currently are practiced by Hebrew Cabalists and Greek Gnostics. Both words, gematria and isopsephy are language specific terms having certain contextual burden. Thus neither are the best choice for describing method of Karpon, which applies same method to several other scripts.
 
-### Example
+Similar methods are used in the past around the world at least by Arabic scholars (they call it Jum’mal), Vedantists in India (see [Katapayadi system] [2]), buddhists and many other religious schools as well. Number symbolism is ideal tool for multilevel transcription of theological ideas and mnemonic devices for religious practitioners. Method can also be applied to the old Coptic (even [Ethiopic] [3]) scriptures, which borrows a lot from Greek alphabet. In fact, you can apply method to any text, if alphabet can be transformed to the numerical values. Until better word is invented for universally describe the method, gematria and isopsephy words are used in the application.
 
-...
+While Karpon as an application is investigating mathematical and geometric principles of the underlying text or their structure, one should not forget the greater picture. This kind of tool is just one part of the interpretation systems and should be regarded as an addition to the textual criticism  used nowadays. *"Study of the historical and cultural backgrounds for the author, the text, the original audience, classification of the type of literary genres present in the text, and an analysis of grammatical and syntactical features in the text itself" [wiki] [4]* must still be used together with Karpon to get intelligent results. Interestingly for mathematical minds and number theorists this can sort of open an unexpected door to the minds of ancient authors behind the manuscripts without really needing to learn original language in great depths. Mathematics and geometry are still considered to be the only true universal languages in the world.
 
-With Karpon web application you can find occurrences of the numerical values and corresponding words/phrases 
-from the manuscripts, examine their geometric connections between other terms and see harmonic properties of the numbers in tabular and visualized graphical format. Word properties like transliteration, lemma, morphology and translation/definitions are also shown to some extend but main emphasis is on mathematical and geometric search functionality and presentation. Good lexicons are available from many good sites, for example: http://www.biblestudytools.com/lexicons/ that you can use in combination with Karpon.
+### Example calculation
+
+Core of the application is calculation of the numerical value of the word and phrases. It is good idea to do it manually, so you can get clear idea of the method. Then you can pretty much leave this job for computers as they are made for this kind of repetitious and resource eating job. First you need to know corresponding alphabet and their numerical map. One for Greek script is:
+
+|α = 1|β = 2|γ = 3|δ = 4|ε = 5|ϛ = 6|ζ = 7|η = 8|θ = 9|
+|ι = 10|κ = 20|λ = 30|μ = 40|ν = 50|ξ = 60|ο = 70|π = 80|ϙ,Ϟ = 90|
+|ρ = 100|σ,ϲ,ς = 200|τ = 300|υ = 400|φ = 500|χ = 600|ψ = 700| ω = 800|Ϡ = 900|
+
+Then you split word to letters, see their numerical value from the map and sum values. Take the word isopsephy for example:
+
+|ι|σ|ο|ψ|η|φ|ι|α|
+|i|s|ŏ|ps|ē|ph|i|a|
+|10|200|70|700|8|500|10|1|
+
+which is 1499 in total. Same applies to phrases containing multiple words, when spaces are taken as 0.
+
+Next thing you would like to do is to check, if there are other words or phrases giving same value or if same value can be calculated by immediate geometrical ratio. Both things are main operations of the Karpon application. You can see numerical matches from the "Revelation of John" for example:
+
+http://www.karpon.net/?gematria_number=1449
+
+Search engine gives 13 matches with nice occurrence of *την λυχνιαν* (the lampstand) as first item.
+
+Numerical properties are available from number module:
+
+http://www.karpon.net/?c=number&gematria_number=1499
+
+In this case result page shows few interesting geometrical ratios, one being 3 dimensional object (rectangular prism, or maybe you want to see it as an altar or even sarcofag), which has sides ratio of 1:1:2. 
+
+![rectangular prism 1499 diagonal][5]
+
+Now if diameter between opposite corners is 1499 (or maybe you want to see it as 1500), then long side of the object is 1224, which is one of the most well known number symbols of early Christianity, numerical value of *ιχθυες* (fishes) and surprisingly *δρακων μεγας* (Big Dragon) from Revelation itself! You can also see other interesting ratios, like Pythagorean tuning and find that between numbers 1499 and 888, numerical value of *ιησους* (Jesus) is an interval of major sixth or 27th harmonic.
+
+A lot more could be dug, but this should be enough for an example. You can make same searches to Hebrew Genesis and many other manuscripts in future. English manuscript ([Sonnets of Shakespeare] [6]) is provided in Karpon just for giving opportunity to compare and test meaningfulness (or meaninglessness!) of the results with other writing systems and arbitrary text corpuses.
+
+So, with Karpon web application you can find occurrences of the numerical values and corresponding words/phrases 
+from the manuscripts, examine their geometric connections between other terms and see harmonic properties of the numbers in tabular and visualized graphical format. Future releases of the application will have more illustrations of the statistical side of the manuscripts.
+
+Word properties like transliteration, lemma, morphology and translation/definitions are also shown to some extend but main emphasis is on mathematical and geometric search functionality and presentation.
+
+Good lexicons are available from many good sites, for example [Bible Study tools] [7] that you can use in combination with Karpon.
+
+Searching for etymology of the words is a good practice. For this purpose [Etymonline] [8] is a useful site. Other massive site for wide Greek literature research is [Perseus library] [9].
 
 ## How to get involved with Karpon?
 
@@ -150,3 +188,13 @@ Other javascript libraries involved are [JQuery](http://jquery.com/), [Datatable
 ## License
 
 The MIT License ([MIT](LICENSE))
+
+[1]: http://en.wikipedia.org/wiki/Karpos
+[2]: http://en.wikipedia.org/wiki/Katapayadi_system
+[3]: http://www.geez.org/Numerals/
+[4]: http://en.wikipedia.org/wiki/Exegesis
+[5]: http://www.karpon.net/assets/images/rectangular-prism-1499.jpg
+[6]: http://www.gutenberg.org/cache/epub/1041/pg1041.txt
+[7]: http://www.biblestudytools.com/lexicons/
+[8]: http://etymonline.com/
+[9]: http://www.perseus.tufts.edu/hopper/
