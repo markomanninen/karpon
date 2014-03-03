@@ -22,10 +22,12 @@ Core of the application is calculation of the numerical value of the word and ph
 
 Then you split word to letters, see their numerical value from the map and sum values. Take the word isopsephy for example:
 
+
 |ι |σ  |ο |ψ  |η|φ  |ι |α|
 |--|---|--|---|-|---|--|-|
 |i |s  |ŏ |ps |ē|ph |i |a|
 |10|200|70|700|8|500|10|1|
+
 
 which is 1499 in total. Same applies to phrases containing multiple words, when spaces are taken as 0.
 
@@ -41,7 +43,7 @@ http://www.karpon.net/?c=number&gematria_number=1499
 
 In this case result page shows few interesting geometrical ratios, one being 3 dimensional object (rectangular prism, or maybe you want to see it as an altar or even sarcofag), which has sides ratio of 1:1:2. 
 
-![rectangular prism 1499 diagonal][5]
+![rectangular prism 1499 diagonal] [5]
 
 Now if diameter between opposite corners is 1499 (or maybe you want to see it as 1500), then long side of the object is 1224, which is one of the most well known number symbols of early Christianity, numerical value of *ιχθυες* (fishes) and surprisingly *δρακων μεγας* (Big Dragon) from Revelation itself! You can also see other interesting ratios, like Pythagorean tuning and find that between numbers 1499 and 888, numerical value of *ιησους* (Jesus) is an interval of major sixth or 27th harmonic.
 
@@ -195,7 +197,7 @@ The MIT License ([MIT](LICENSE))
 [2]: http://en.wikipedia.org/wiki/Katapayadi_system
 [3]: http://www.geez.org/Numerals/
 [4]: http://en.wikipedia.org/wiki/Exegesis
-[5]: http://www.karpon.net/assets/images/rectangular-prism-1499.jpg
+[5]: http://www.karpon.net/assets/images/rectangular-prism-1499.png
 [6]: http://www.gutenberg.org/cache/epub/1041/pg1041.txt
 [7]: http://www.biblestudytools.com/lexicons/
 [8]: http://etymonline.com/
