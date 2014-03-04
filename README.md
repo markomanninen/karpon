@@ -12,7 +12,7 @@ Similar methods are used in the past around the world at least by Arabic scholar
 
 While Karpon as an application is investigating mathematical and geometric principles of the underlying text or their structure, one should not forget greater picture. This kind of tool is just one part of the interpretation systems and should be regarded as an addition to the textual criticism used nowadays.
 
-> "Study of the historical and cultural backgrounds for the author, the text, the original audience, classification of the type of literary genres present in the text, and an analysis of grammatical and syntactical features in the text itself" ([wiki] [4])
+> "Study of the historical and cultural backgrounds for the author, the text, the original audience, classification of the type of literary genres present in the text, and an analysis of grammatical and syntactical features in the text itself" *[wiki] [4]*
 
 must still be used together with Karpon to get intelligent results. Interestingly for mathematical minds and number theorists this can sort of open an unexpected door to the minds of ancient authors behind the manuscripts without really needing to learn original language in great depths. Mathematics and geometry are still considered to be the only true universal languages in the world.
 
@@ -20,7 +20,7 @@ must still be used together with Karpon to get intelligent results. Interestingl
 
 Core of the application is calculation of the numerical value of the word and phrases. It is good idea to do it manually in the beginning, so you can get clear idea of the method. Then you can pretty much leave this job for computers as they are made for this kind of repetitious and resource eating job. First you need to know corresponding alphabet and their numerical map. One for Greek script is:
 
-|---|1*10<sup>n</sup>|---|2*10<sup>n</sup>|---|3*10<sup>n</sup>|---|4*10<sup>n</sup>|---|5*10<sup>n</sup>|---|6*10<sup>n</sup>|---|7*10<sup>n</sup>|---|8*10<sup>n</sup>|---|9*10<sup>n</sup>|
+|   |1*10<sup>n</sup>|   |2*10<sup>n</sup>|   |3*10<sup>n</sup>|   |4*10<sup>n</sup>|   |5*10<sup>n</sup>|   |6*10<sup>n</sup>|   |7*10<sup>n</sup>|   |8*10<sup>n</sup>|   |9*10<sup>n</sup>|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |α  |1  |β    |2  |γ  |3  |δ  |4  |ε  |5  |ϛ  |6  |ζ  |7  |η  |8  |θ  |9  |
 |ι  |10 |κ    |20 |λ  |30 |μ  |40 |ν  |50 |ξ  |60 |ο  |70 |π  |80 |ϙ,Ϟ|90 |
