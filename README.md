@@ -160,34 +160,34 @@ Then you split word to letters, see their numerical value from the map and sum v
 <td align="left">= <strong>1499</strong></td>
 </tr></tbody></table>
 
-So word value is 1499 in total. Same applies to phrases containing multiple words, where spaces are taken as 0.
+So word value is 1499 in total. Same applies to phrases containing multiple words, where spaces are taken as 0. Also it is good to know that capital (speaking of Greek, Latin and Gothic they are called Uncial) letters has same value than small letters.
 
 Next thing you would like to do is to check, if there are other words or phrases giving same value or if same value can be calculated by immediate geometrical ratio. Both things are main operations of the Karpon application. You can see numerical matches from the "Revelation of John" for example:
 
 http://www.karpon.net/search/1449
 
-Search engine gives 13 matches with nice occurrence of *<span class="script-greek">την λυχνιαν</span>* (the lampstand) as first item.
-
-Numerical properties are available from number module:
+Search engine gives 13 matches with nice occurrence of *<span class="script-greek">την λυχνιαν</span>* (the lampstand) as first item. Numerical properties are available from number module:
 
 http://www.karpon.net/gematria/number/1499
 
-In this case result page shows few interesting geometrical ratios, one being 3 dimensional object (rectangular prism, or maybe you want to see it as an altar or even sarcofag), which has sides ratio of 1:1:2.
+In this case result page shows few interesting geometrical ratios, one being three dimensional object (rectangular prism, or maybe you want to see it as an altar or even sarcophagus), which has sides ratio of 1:1:2.
 
 ![rectangular prism 1499 diagonal] [5]
 
-Now if diameter between opposite corners is 1499 (or maybe you want to see it as while number 1500), then long side of the object is 1224, which is one of the most well known number symbols of early Christianity, numerical value of *<span class="script-greek">ιχθυες</span>* (fishes) and surprisingly *<span class="script-greek">δρακων μεγας</span>* (Big Dragon) from Revelation itself! You can also see other interesting ratios, like Pythagorean tuning and find that between numbers 1499 and 888, numerical value of *<span class="script-greek">ιησους</span>* (Jesus) is an interval of major sixth or 27th harmonic.
+Now if diameter between opposite corners is 1499 (or maybe you want to see it as a whole number 1500), then long side of the object is 1224. That is one of the most well known number symbols of early Christianity, numerical value of *<span class="script-greek">ιχθυες</span>* (fishes) and surprisingly *<span class="script-greek">δρακων μεγας</span>* (Big Dragon) from the Revelation itself! You can also see other interesting ratios from the number module, like Pythagorean tuning and note that between numbers 1499 and 888, numerical value of *<span class="script-greek">ιησους</span>* (Jesus) is an interval of major sixth or 27th harmonic.
 
-A lot more could be dug, but this should be enough for an example. You can make same searches to Hebrew Genesis and many other manuscripts in future. English manuscript ([Sonnets of Shakespeare] [6]) is provided in Karpon just for giving opportunity to compare and test meaningfulness (or meaninglessness!) of the results with other writing systems and arbitrary text corpuses.
+A lot more could be dug, but this should be enough for an example. You can make same searches to Hebrew Genesis and many other manuscripts in future. English manuscript (namely [Sonnets of Shakespeare] [6]) is provided in Karpon just for giving opportunity to compare and test meaningfulness (or meaninglessness!) of the results with other writing systems and arbitrary text corpuses.
 
 So, with Karpon web application you can find occurrences of the numerical values and corresponding words/phrases 
 from the manuscripts, examine their geometric connections between other terms and see harmonic properties of the numbers in tabular and visualized graphical format. Future releases of the application will have more illustrations of the statistical side of the manuscripts.
 
-Word properties like transliteration, lemma, morphology and translation/definitions are also shown to some extend but main emphasis is on mathematical and geometric search functionality and presentation.
+### Other tools
 
-Good lexicons are available from many good sites, for example [Bible Study tools] [7] that you can use in combination with Karpon.
+Word properties like transliteration, <span title="the canonical or citation form of a word">lemma</span>, <span title="the study of the structure and content of word forms">morphology</span> and translation/definitions are also shown to some extend but main emphasis is on mathematical and geometric search functionality and presentation.
 
-Searching for etymology of the words is a good practice. For this purpose [Etymonline] [8] is a useful site. Other massive site for wide Greek literature research is [Perseus library] [9].
+Good <span title="a lexicon, essentially a catalogue of a language's inventory words">lexicons</span>/<span title="a form of cross-reference between different parts of a sentence or phrase, a verbal index">concordances</span> are available from many good sites, for example [Bible Study tools] [7] that you can use in combination with Karpon.
+
+Searching for etymology of the words is a good practice in many ways. For this purpose [Etymonline] [8] is a useful site. Some intriguing insights to word origins gives Franco Rendich on his book "Comparative etymological Dictionary of classical Indo-European languages". Other massive site for wide Greek literature research is [Perseus library] [9].
 
 ## How to get involved with Karpon?
 
@@ -197,6 +197,16 @@ You can see [help section](http://www.karpon.net/?c=help) of the site to see mor
 
 Other way using application is to install it on your own computer. This requires some technical skills to set up web server and PHP application on localhost. Third way to interact with the project is to contribute manuscripts and alphabetical number mapping classes.
 
+<div class="article-footer">
+	<div>
+		<span class="col-md-4">Article ID: http://www.karpon.net/?c=help</span>
+		<span class="col-md-4">Date Created:&nbsp;&nbsp;03/03/2014</span>
+	</div>
+	<div>
+		<span class="col-md-4">Copyright (c) Marko Manninen, 2014</span>
+		<span class="col-md-4">Date Modified:&nbsp;03/05/2014</span>
+	</div>
+</div>
 
 ## Installing
 
