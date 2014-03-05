@@ -2,36 +2,163 @@
 
 ## General introduction
 
-Karpon ([fruit] [1]) is a tool for researchers interested in ancient religious and philosophical scriptures and their *certain* hermeneutic, or more precisely exegetical interpretation. This *certain* interpretation is mainly oriented and based on letter number values of the alphabet of the manuscript's writing system.
+Karpon ([fruit] [1]) is a tool for researchers interested in ancient religious and philosophical scriptures and their *certain* hermeneutic, or more precisely exegetical interpretation. This *certain* interpretation is mainly oriented and based on letter number values of the alphabet of the manuscript's writing system. Literary device in question works through mathematical analogy to metaphor and finally to allegorical interpretation of the text.
 
 ### Historical background
 
-Method of seeking "hidden" multilayer meanings of the literary words by their numerical value is better known as **gematria** and **isopsephy**, which were practiced by Hebrew Cabalists and Greek Gnostics. Popularly they are linked with numerology and number mysticism. Both words, gematria and isopsephy are language specific terms having so to say contextual burden. Thus neither are the best choice for describing method of Karpon, which applies same method to several other scripts with strong technical manner.
+Method of seeking "hidden" multilayer meanings of the literary words by their numerical value is better known as **gematria** and **isopsephy**, which were and still are practiced by Hebrew Cabalists and Greek Gnostics. Popularly they are linked with numerology and number mysticism. Both words, gematria and isopsephy are language specific terms having so to say contextual burden. Thus neither are the best choice for describing method of Karpon, which applies same method to several other scripts with strong technical manner.
 
-Similar methods are used in the past around the world at least by Arabic scholars (they call it Jum’mal), Vedantists in India (see [Katapayadi system] [2]), buddhists and many other religious schools as well. Number symbolism is ideal tool for multilevel transcription of theological ideas and mnemonic devices for religious practitioners. Method can also be applied to the old Coptic (even [Ethiopic] [3]) scriptures, which is natural, because it borrows a lot from Greek alphabet. In fact, you can apply method to any text, if alphabet can be transformed to the numerical values. Until better word is invented for universally describe the method, gematria and isopsephy words however are used in the application.
+Similar methods are used in the past around the world at least by Arabic scholars (they call it Jum’mal), Vedantists in India (see [Katapayadi system] [2]), buddhists and many other religious schools as well. Number symbolism is ideal tool for multilevel transcription of theological ideas and mnemonic device for religious practitioners. Method can also be applied to the old Coptic, even [Ethiopic] [3] scriptures, which is natural, because they borrow a lot from Greek alphabet. In fact, you can apply method to any text, if alphabet can be transformed to the numerical values. Until better word is invented for universally describe the method, gematria and isopsephy words however are used in the application.
 
 While Karpon as an application is investigating mathematical and geometric principles of the underlying text or their structure, one should not forget greater picture. This kind of tool is just one part of the interpretation systems and should be regarded as an addition to the textual criticism used nowadays.
 
 > "Study of the historical and cultural backgrounds for the author, the text, the original audience, classification of the type of literary genres present in the text, and an analysis of grammatical and syntactical features in the text itself" *[wiki] [4]*
 
-must still be used together with Karpon to get intelligent results. Interestingly for mathematical minds and number theorists this can sort of open an unexpected door to the minds of ancient authors behind the manuscripts without really needing to learn original language in great depths. Mathematics and geometry are still considered to be the only true universal languages in the world.
+must still be used together with Karpon to get intelligent results. Having found harmonious structures or numerical matches in many cases doesn't mean deliberate intention of the original authors. Anyway, interestingly for mathematical minds and number theorists this can sort of open an unexpected door to the minds of ancient authors behind the manuscripts without really needing to learn original language in great depths. Mathematics and its visually appealing branch geometry, are still considered to be the only true universal languages in the world.
 
 ### Example calculation
 
 Core of the application is calculation of the numerical value of the word and phrases. It is good idea to do it manually in the beginning, so you can get clear idea of the method. Then you can pretty much leave this job for computers as they are made for this kind of repetitious and resource eating job. First you need to know corresponding alphabet and their numerical map. One for Greek script is:
 
-|   |1*10<sup>n</sup>|   |2*10<sup>n</sup>|   |3*10<sup>n</sup>|   |4*10<sup>n</sup>|   |5*10<sup>n</sup>|   |6*10<sup>n</sup>|   |7*10<sup>n</sup>|   |8*10<sup>n</sup>|   |9*10<sup>n</sup>|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|α  |1  |β    |2  |γ  |3  |δ  |4  |ε  |5  |ϛ  |6  |ζ  |7  |η  |8  |θ  |9  |
-|ι  |10 |κ    |20 |λ  |30 |μ  |40 |ν  |50 |ξ  |60 |ο  |70 |π  |80 |ϙ,Ϟ|90 |
-|ρ  |100|σ,ϲ,ς|200|τ  |300|υ  |400|φ  |500|χ  |600|ψ  |700|ω  |800|Ϡ  |900|
+<table>
+<colgroup>
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+<col class="vertical-divider" />
+<col />
+</colgroup><thead><tr>
+<th align="center"></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">1*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">2*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">3*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">4*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">5*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">6*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">7*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th align="center">8*10<sup>n</sup></th>
+<th align="center" class="vertical-divider-off"></th>
+<th>9*10<sup>n</sup></th>
+</tr></thead><tbody><tr>
+<td align="center">n=0</td>
+<td align="center" class="script-greek">α</td>
+<td align="center">1</td>
+<td align="center" class="script-greek">β</td>
+<td align="center">2</td>
+<td align="center" class="script-greek">γ</td>
+<td align="center">3</td>
+<td align="center" class="script-greek">δ</td>
+<td align="center">4</td>
+<td align="center" class="script-greek">ε</td>
+<td align="center">5</td>
+<td align="center" class="script-greek">ϛ</td>
+<td align="center">6</td>
+<td align="center" class="script-greek">ζ</td>
+<td align="center">7</td>
+<td align="center" class="script-greek">η</td>
+<td align="center">8</td>
+<td align="center" class="script-greek">θ</td>
+<td align="center">9</td>
+</tr><tr>
+<td align="center">n=1</td>
+<td align="center" class="script-greek">ι</td>
+<td align="center">10</td>
+<td align="center" class="script-greek">κ</td>
+<td align="center">20</td>
+<td align="center" class="script-greek">λ</td>
+<td align="center">30</td>
+<td align="center" class="script-greek">μ</td>
+<td align="center">40</td>
+<td align="center" class="script-greek">ν</td>
+<td align="center">50</td>
+<td align="center" class="script-greek">ξ</td>
+<td align="center">60</td>
+<td align="center" class="script-greek">ο</td>
+<td align="center">70</td>
+<td align="center" class="script-greek">π</td>
+<td align="center">80</td>
+<td align="center" class="script-greek">ϙ,Ϟ</td>
+<td align="center">90</td>
+</tr><tr>
+<td align="center">n=2</td>
+<td align="center" class="script-greek">ρ</td>
+<td align="center">100</td>
+<td align="center" class="script-greek">σ,ϲ,ς</td>
+<td align="center">200</td>
+<td align="center" class="script-greek">τ</td>
+<td align="center">300</td>
+<td align="center" class="script-greek">υ</td>
+<td align="center">400</td>
+<td align="center" class="script-greek">φ</td>
+<td align="center">500</td>
+<td align="center" class="script-greek">χ</td>
+<td align="center">600</td>
+<td align="center" class="script-greek">ψ</td>
+<td align="center">700</td>
+<td align="center" class="script-greek">ω</td>
+<td align="center">800</td>
+<td align="center" class="script-greek">Ϡ</td>
+<td align="center">900</td>
+</tr></tbody></table>
 
 Then you split word to letters, see their numerical value from the map and sum values. Let's take the word **isopsephy** for example:
 
-| ι | σ | ο | ψ | η | φ | ι | α |   |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| i | s | ŏ |ps | ē |ph | i | a |   |
-|10 +|200 +|70 +|700 +|8 +|500 +|10 +|1| = **1499**|
+<table><thead><tr>
+<th align="left">Transliteration</th>
+<th align="center">i</th>
+<th align="center">s</th>
+<th align="center">ŏ</th>
+<th align="center">ps</th>
+<th align="center">ē</th>
+<th align="center">ph</th>
+<th align="center">i</th>
+<th align="center">a</th>
+<th align="center"></th>
+</tr></thead><tbody><tr>
+<td align="left">Greek letter</td>
+<td align="center" class="script-greek">ι</td>
+<td align="center" class="script-greek">σ</td>
+<td align="center" class="script-greek">ο</td>
+<td align="center" class="script-greek">ψ</td>
+<td align="center" class="script-greek">η</td>
+<td align="center" class="script-greek">φ</td>
+<td align="center" class="script-greek">ι</td>
+<td align="center" class="script-greek">α</td>
+<td align="center" class="script-greek"></td>
+</tr><tr>
+<td align="left">Numerical value</td>
+<td align="center">10 +</td>
+<td align="center">200 +</td>
+<td align="center">70 +</td>
+<td align="center">700 +</td>
+<td align="center">8 +</td>
+<td align="center">500 +</td>
+<td align="center">10 +</td>
+<td align="center">1</td>
+<td align="left">= <strong>1499</strong></td>
+</tr></tbody></table>
 
 So word value is 1499 in total. Same applies to phrases containing multiple words, where spaces are taken as 0.
 
@@ -39,7 +166,7 @@ Next thing you would like to do is to check, if there are other words or phrases
 
 http://www.karpon.net/search/1449
 
-Search engine gives 13 matches with nice occurrence of *την λυχνιαν* (the lampstand) as first item.
+Search engine gives 13 matches with nice occurrence of *<span class="script-greek">την λυχνιαν</span>* (the lampstand) as first item.
 
 Numerical properties are available from number module:
 
@@ -49,7 +176,7 @@ In this case result page shows few interesting geometrical ratios, one being 3 d
 
 ![rectangular prism 1499 diagonal] [5]
 
-Now if diameter between opposite corners is 1499 (or maybe you want to see it as while number 1500), then long side of the object is 1224, which is one of the most well known number symbols of early Christianity, numerical value of *ιχθυες* (fishes) and surprisingly *δρακων μεγας* (Big Dragon) from Revelation itself! You can also see other interesting ratios, like Pythagorean tuning and find that between numbers 1499 and 888, numerical value of *ιησους* (Jesus) is an interval of major sixth or 27th harmonic.
+Now if diameter between opposite corners is 1499 (or maybe you want to see it as while number 1500), then long side of the object is 1224, which is one of the most well known number symbols of early Christianity, numerical value of *<span class="script-greek">ιχθυες</span>* (fishes) and surprisingly *<span class="script-greek">δρακων μεγας</span>* (Big Dragon) from Revelation itself! You can also see other interesting ratios, like Pythagorean tuning and find that between numbers 1499 and 888, numerical value of *<span class="script-greek">ιησους</span>* (Jesus) is an interval of major sixth or 27th harmonic.
 
 A lot more could be dug, but this should be enough for an example. You can make same searches to Hebrew Genesis and many other manuscripts in future. English manuscript ([Sonnets of Shakespeare] [6]) is provided in Karpon just for giving opportunity to compare and test meaningfulness (or meaninglessness!) of the results with other writing systems and arbitrary text corpuses.
 
