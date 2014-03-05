@@ -197,17 +197,6 @@ You can see [help section](http://www.karpon.net/?c=help) of the site to see mor
 
 Other way using application is to install it on your own computer. This requires some technical skills to set up web server and PHP application on localhost. Third way to interact with the project is to contribute manuscripts and alphabetical number mapping classes.
 
-<div class="article-footer">
-	<div>
-		<span class="col-md-4">Article ID: http://www.karpon.net/?c=help</span>
-		<span class="col-md-4">Date Created:&nbsp;&nbsp;03/03/2014</span>
-	</div>
-	<div>
-		<span class="col-md-4">Copyright (c) Marko Manninen, 2014</span>
-		<span class="col-md-4">Date Modified:&nbsp;03/05/2014</span>
-	</div>
-</div>
-
 ## Installing
 
 You can install application to your local computer or remote web server. Copy application's main folder to your 
