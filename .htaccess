@@ -4,6 +4,9 @@ RewriteBase /
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteCond $1 !^(index\.php|assets|robots\.txt)
 #RewriteRule ^(.*)$ index.php/params=$1 [L,QSA]
+RewriteRule ^home$ /karpon/index.php?c=home [QSA]
+RewriteRule ^help$ /karpon/index.php?c=help [QSA]
+RewriteRule ^whatiskarpon$ /karpon/index.php?c=help [QSA]
 RewriteRule ^search/([0-9]*)$ /karpon/index.php?c=search&gematria_number=$1 [QSA]
 RewriteRule ^gematria/number/([0-9]*)$ /karpon/index.php?c=number&gematria_number=$1 [QSA]
 
